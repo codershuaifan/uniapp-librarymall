@@ -10,33 +10,87 @@
 			}
 		},
 		{
-			"path": "pages/center/index",
+			"path": "pages/goods/goods",
 			"style": {
-				"navigationBarTitleText": "关于"
+				"navigationBarTitleText": "商品"
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/cart/cart",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "购物车",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/auth/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/auth/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "注册",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/baseinfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改个人信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
+		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "uView",
-		"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationBarBackgroundColor": "#1296db",
 		"backgroundColor": "#F8F8F8"
 	},
 	"tabBar": {
-	    "color": "#909399",
-	    "selectedColor": "#303133",
+	    "color": "#2c2c2c",
+	    "selectedColor": "#1296db",
 	    "borderStyle": "black",
 	    "backgroundColor": "#ffffff",
 	    "list": [{
 	        "pagePath": "pages/index/index",
-	        "iconPath": "static/index.png",
-	        "selectedIconPath": "static/index-selected.png",
+	        "iconPath": "static/icon/首页.svg",
+	        "selectedIconPath": "static/icon/首页 (1).svg",
 	        "text": "首页"
 	    }, {
-	        "pagePath": "pages/center/index",
-	        "iconPath": "static/center.png",
-	        "selectedIconPath": "static/center-selected.png",
-	        "text": "我"
+	        "pagePath": "pages/goods/goods",
+	        "iconPath": "static/icon/商品.svg",
+	        "selectedIconPath": "static/icon/商品 (1).svg",
+	        "text": "商品"
+	    }, {
+	        "pagePath": "pages/cart/cart",
+	        "iconPath": "static/icon/购物车.svg",
+	        "selectedIconPath": "static/icon/购物车 (1).svg",
+	        "text": "购物车"
+	    }, {
+	        "pagePath": "pages/user/user",
+	        "iconPath": "static/icon/我的.svg",
+	        "selectedIconPath": "static/icon/我的 (1).svg",
+	        "text": "我的"
 	    }]
 	}
 }
