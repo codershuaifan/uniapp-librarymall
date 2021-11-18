@@ -59,6 +59,51 @@
             }
             
         }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "图书详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/cart/above",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单预览",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/cart/place",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "收货地址",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/cart/addplace",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "增加地址信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/cart/upteplace",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "更新地址",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
@@ -73,23 +118,23 @@
 	    "backgroundColor": "#ffffff",
 	    "list": [{
 	        "pagePath": "pages/index/index",
-	        "iconPath": "static/icon/首页.svg",
-	        "selectedIconPath": "static/icon/首页 (1).svg",
+	        "iconPath": "static/icon/首页.png",
+	        "selectedIconPath": "static/icon/首页 (1).png",
 	        "text": "首页"
 	    }, {
 	        "pagePath": "pages/goods/goods",
-	        "iconPath": "static/icon/商品.svg",
-	        "selectedIconPath": "static/icon/商品 (1).svg",
+	        "iconPath": "static/icon/商品.png",
+	        "selectedIconPath": "static/icon/商品 (1).png",
 	        "text": "商品"
 	    }, {
 	        "pagePath": "pages/cart/cart",
-	        "iconPath": "static/icon/购物车.svg",
-	        "selectedIconPath": "static/icon/购物车 (1).svg",
+	        "iconPath": "static/icon/购物车.png",
+	        "selectedIconPath": "static/icon/购物车 (1).png",
 	        "text": "购物车"
 	    }, {
 	        "pagePath": "pages/user/user",
-	        "iconPath": "static/icon/我的.svg",
-	        "selectedIconPath": "static/icon/我的 (1).svg",
+	        "iconPath": "static/icon/我的.png",
+	        "selectedIconPath": "static/icon/我的 (1).png",
 	        "text": "我的"
 	    }]
 	}

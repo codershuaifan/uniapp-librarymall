@@ -1,0 +1,51 @@
+
+.cartitem.data-v-390f6364{
+	display: flex;
+	align-items: center;
+	height: 200rpx;
+	padding-top: 120rpx;
+	padding-bottom: 120rpx;
+	box-shadow: 0rpx 4rpx 2rpx rgb(0,0,0,0.05);
+}
+.icon.data-v-390f6364{
+	height: 50rpx;
+	width: 50rpx;
+	padding-right: 30rpx;
+	padding-left: 50rpx;
+}
+.image.data-v-390f6364{
+	height: 180rpx;
+	width: 180rpx;
+}
+.third.data-v-390f6364{
+	align-self: flex-end;
+	margin-left: 40rpx;
+}
+.firstword.data-v-390f6364{
+	font-weight: 1000;
+}
+.secondword.data-v-390f6364{
+	font-size: 6rpx;
+	padding-left: 20rpx;
+	color: #82848A;
+}
+.thirdword.data-v-390f6364{
+	display: flex;
+	padding-top: 40rpx;
+	margin-bottom: -80rpx;
+	align-items: center;
+}
+.firstdiv.data-v-390f6364{
+	color: red;
+	font-weight: 1000;
+	width: 70rpx;
+}
+.seconddiv.data-v-390f6364{
+	margin-left: 40rpx;
+}
+.iconsecond.data-v-390f6364{
+	height: 40rpx;
+	width: 40rpx;
+	margin-left: 40rpx;
+}
+

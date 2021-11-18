@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.first.data-v-8329c3b2 {
+  height: 200rpx;
+  background-color: #F3F4F6;
+}
+.firstone.data-v-8329c3b2 {
+  font-weight: 1000;
+  font-size: 34rpx;
+  padding-top: 40rpx;
+  margin-left: 20rpx;
+  width: 500rpx;
+}
+.firsttwo.data-v-8329c3b2 {
+  color: #606266;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+.firstthree.data-v-8329c3b2 {
+  position: fixed;
+  right: 0;
+  top: 80rpx;
+}
+.total.data-v-8329c3b2 {
+  display: flex;
+  align-items: center;
+  height: 100rpx;
+  background-color: #F4F4F5;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.five.data-v-8329c3b2 {
+  height: 80rpx;
+  width: 300rpx;
+  background-color: red;
+  color: #FFFFFF;
+  border-radius: 50rpx;
+  line-height: 80rpx;
+  text-align: center;
+  margin-left: 10rpx;
+}
+.six.data-v-8329c3b2 {
+  height: 80rpx;
+  width: 140rpx;
+  background-color: orange;
+  color: #FFFFFF;
+  border-radius: 50rpx;
+  line-height: 80rpx;
+  text-align: center;
+  margin-left: 40rpx;
+}
+.third.data-v-8329c3b2 {
+  margin-left: 40rpx;
+  margin-bottom: 6rpx;
+  font-size: 34rpx;
+  font-weight: 1000;
+}
+.four.data-v-8329c3b2 {
+  color: red;
+  font-weight: 1000;
+  width: 80rpx;
+  font-size: 34rpx;
+}
+.above.data-v-8329c3b2 {
+  height: 100vh;
+}
+.scroll.data-v-8329c3b2 {
+  height: calc(100% - 88rpx - 100rpx);
+}
+.tag.data-v-8329c3b2 {
+  font-weight: normal;
+}
+.tag text.data-v-8329c3b2 {
+  display: block;
+  width: 60rpx;
+  height: 34rpx;
+  line-height: 34rpx;
+  color: #ffffff;
+  font-size: 20rpx;
+  border-radius: 6rpx;
+  text-align: center;
+  background-color: #3191fd;
+  margin-top: 40rpx;
+}
+.tag .red.data-v-8329c3b2 {
+  background-color: red;
+}
+._img.data-v-8329c3b2 {
+  height: 400rpx;
+  width: 400rpx;
+  position: fixed;
+  top: calc(50% - 200rpx);
+  right: 0;
+  z-index: 100000;
+}
+

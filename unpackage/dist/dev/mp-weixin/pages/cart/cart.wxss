@@ -1,0 +1,15 @@
+
+.total.data-v-0f00adf4{
+	z-index: 10;
+}
+.cart.data-v-0f00adf4{
+	height: 100vh;
+}
+.scroll.data-v-0f00adf4{
+
+
+
+
+	height: calc(100% - 88rpx);
+}
+

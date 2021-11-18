@@ -47,7 +47,7 @@ const install = (Vue, vm) => {
 				vm.$u.toast('账号或密码错误')
 			}
 			else{
-				vm.$u.api.jumplogin()
+				vm.$u.utils.jumplogin()
 			}
 		 	return false;
 		 } else if(statusCode == 422) {

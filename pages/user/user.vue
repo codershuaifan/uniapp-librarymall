@@ -1,10 +1,10 @@
 <template>
 	<view>
-		<view class="u-flex user-box u-p-l-30 u-p-t-30 u-p-r-20 u-p-b-30">
+		<view class="u-flex user-box u-p-l-30 u-p-t-30 u-p-r-20 u-p-b-30 avabody">
 			<view class="u-m-r-10 imagearea">
 				<image-upload></image-upload>
 			</view>
-			<view class="u-flex-1">
+			<view class="u-flex-1 namebody">
 				<view class="u-font-18 u-p-b-20">{{vuex_user.name}}</view>
 				<view class="u-font-14 u-tips-color">邮箱:{{vuex_user.email}}</view>
 			</view>
@@ -20,7 +20,7 @@
 			<u-cell-group>
 				<u-cell-item icon="rmb-circle" title="所有订单"></u-cell-item>
 				<u-cell-item icon="star" title="商品收藏"></u-cell-item>
-				<u-cell-item icon="map" title="收货地址"></u-cell-item>
+				<u-cell-item icon="map" title="收货地址" @click="placelist"></u-cell-item>
 			</u-cell-group>
 		</view>
 		
@@ -61,6 +61,12 @@
 						url:'pages/user/user'
 					})
 				},1500)
+			},
+			placelist(){
+				this.$u.route({
+					type:'to',
+					url:'pages/cart/place'
+				})
 			}
 		}
 	}
@@ -86,4 +92,14 @@ page{
 	height: 70px;
 	width:70px;
 }
+
+/* #ifdef APP-PLUS */
+.avabody{
+	padding: 30rpx 30rpx 70rpx !important;
+}
+.namebody{
+	margin-left: 50rpx;
+	margin-top: 36rpx;
+}
+/* #endif */
 </style>

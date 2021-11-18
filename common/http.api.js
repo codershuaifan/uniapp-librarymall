@@ -25,8 +25,47 @@ const install = (Vue, vm) => {
 	//更新服务器头像
 	let imagesave = params => vm.$u.patch('/api/user/avatar',params);
 	
+	//请求商品详情
+	let goodsdetail = id => vm.$u.get(`/api/goods/${id}`);
+	
+	//收藏商品
+	let collect = id => vm.$u.post(`/api/collects/goods/${id}`);
+	
+	//加入购物车
+	let entercart = params => vm.$u.post('/api/carts',params);
+	
+	//获取购物车列表
+	let getcart = () => vm.$u.get(`/api/carts?include=goods`);
+	
+	//获取商品列表
+	let getcartgoods = params => vm.$u.get('/api/goods',params);
+	
+	//删除购物车
+	let delegoods = cart => vm.$u.delete(`/api/carts/${cart}`);
+	
+	//改变购物车商品选中
+	let changeitem = params => vm.$u.patch('/api/carts/checked',params);
+	
+	//获取地址列表
+	let getplacelist = () => vm.$u.get('/api/address');
+	
+	//添加地址列表
+	let addplace = params => vm.$u.post('/api/address',params);
+	
+	//删除地址
+	let delplace = params => vm.$u.delete(`/api/address/${params}`);
+	
+	//更新地址
+	let upteplace = (id,params) => vm.$u.put(`/api/address/${id}`,params);
+	
+	//设为默认地址
+	let onlyplace = id => vm.$u.patch(`/api/address/${id}/default`);
+		
 	// 将各个定义的接口名称，统一放进对象挂载到vm.$u.api(因为vm就是this，也即this.$u.api)下
-	vm.$u.api = {getIndex,authlogin,userinfo,userregister,userinfoupte,userout,imageupload,imagesave};
+	vm.$u.api = {getIndex,authlogin,userinfo,userregister,
+	userinfoupte,userout,imageupload,imagesave,goodsdetail,
+	collect,entercart,getcart,getcartgoods,delegoods,changeitem,
+	getplacelist,addplace,delplace,upteplace,onlyplace};
 }
 
 export default {

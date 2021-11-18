@@ -1,6 +1,6 @@
 {
     "name" : "uView-demo",
-    "appid" : "__UNI__DE5C136",
+    "appid" : "__UNI__F0682B0",
     "description" : "",
     "versionName" : "1.5.0",
     "versionCode" : "100",
@@ -62,7 +62,7 @@
     "quickapp" : {},
     /* 小程序特有相关 */
     "mp-weixin" : {
-        "appid" : "wxc256e348c4032ebd",
+        "appid" : "",
         "setting" : {
             "urlCheck" : false
         },
@@ -81,6 +81,12 @@
         "template" : "template.h5.html",
         "router" : {
             "mode" : "history"
+        },
+        "title" : "小帆的图书馆",
+        "optimization" : {
+            "treeShaking" : {
+                "enable" : true
+            }
         }
     }
 }

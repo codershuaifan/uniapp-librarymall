@@ -3,6 +3,8 @@ import App from './App'
 import store from '@/store';
 
 Vue.config.productionTip = false
+Vue.prototype.$bus=new Vue()
+// export const eventBus = new vue()
 
 App.mpType = 'app'
 
