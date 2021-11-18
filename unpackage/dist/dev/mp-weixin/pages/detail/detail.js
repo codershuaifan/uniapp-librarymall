@@ -138,11 +138,11 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  var m0 = __webpack_require__(/*! static/icon/收藏.png */ 106)
+  var m0 = __webpack_require__(/*! static/icon/collect.png */ 106)
 
-  var m1 = __webpack_require__(/*! static/icon/收藏 (1).png */ 107)
+  var m1 = __webpack_require__(/*! static/icon/collect(1).png */ 107)
 
-  var m2 = __webpack_require__(/*! static/icon/购物车.png */ 108)
+  var m2 = __webpack_require__(/*! static/icon/shopping(1).png */ 108)
 
   _vm.$mp.data = Object.assign(
     {},

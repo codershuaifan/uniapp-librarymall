@@ -1,13 +1,13 @@
 <template>
 	<view class="total">
 		<!-- #ifndef APP-PLUS -->
-		<img src="~static/icon/未选中.svg" alt="" @click="changestatus" v-show="totalshow===false">
-		<img src="~static/icon/选中.svg" alt="" @click="changestatus" v-show="totalshow===true">
+		<img src="~static/icon/unchoose.svg" alt="" @click="changestatus" v-show="totalshow===false">
+		<img src="~static/icon/choose.svg" alt="" @click="changestatus" v-show="totalshow===true">
 		<!-- #endif -->
 		
 		<!-- #ifdef APP-PLUS -->
-		<img src="static/icon/未选中.svg" alt="" @click="changestatus" v-show="totalshow===false">
-		<img src="static/icon/选中.svg" alt="" @click="changestatus" v-show="totalshow===true">
+		<img src="static/icon/unchoose.svg" alt="" @click="changestatus" v-show="totalshow===false">
+		<img src="static/icon/choose.svg" alt="" @click="changestatus" v-show="totalshow===true">
 		<!-- #endif -->
 		
 		<view class="second">全选</view>

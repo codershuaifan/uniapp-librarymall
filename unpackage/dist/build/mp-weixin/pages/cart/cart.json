@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "购物车",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "cartitem": "/components/cartitem/cartitem",
+    "total": "/components/total/total"
+  }
+}

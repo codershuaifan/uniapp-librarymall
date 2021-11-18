@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "增加地址信息",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-switch": "/uview-ui/components/u-switch/u-switch",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-picker": "/uview-ui/components/u-picker/u-picker"
+  }
+}

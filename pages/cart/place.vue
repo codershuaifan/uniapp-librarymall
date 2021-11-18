@@ -15,12 +15,16 @@
 				<u-icon name="edit-pen" :size="40" color="#999999" @click.native.stop="upteplace(res)"></u-icon>
 			</view>
 		</view>
-		<!-- #ifndef APP-PLUS -->
-		<img src="~static/返回.svg" alt="" class="backicon" @click="back">
+		<!-- #ifdef H5 -->
+		<img src="~static/back.svg" alt="" class="backicon" @click="back">
+		<!-- #endif -->
+		
+		<!-- #ifdef MP-WEIXIN -->
+		<img src="~static/back(1).png" alt="" class="backicon" @click="back">
 		<!-- #endif -->
 		
 		<!-- #ifdef APP-PLUS -->
-		<img src="static/返回.svg" alt="" class="backicon" @click="back">
+		<img src="static/back.svg" alt="" class="backicon" @click="back">
 		<!-- #endif -->
 		
 		<view class="addSite" @click="addplace">

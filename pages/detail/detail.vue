@@ -23,13 +23,13 @@
 		<!-- #ifdef H5 -->
 		<view class="bottom">
 			<view class="collect" @click="collect">
-				<img src="~static/icon/收藏.png" alt="" v-show="iscollect===false">
-				<img src="~static/icon/收藏 (1).png" alt="" v-show="iscollect===true">
+				<img src="~static/icon/collect.png" alt="" v-show="iscollect===false">
+				<img src="~static/icon/collect(1).png" alt="" v-show="iscollect===true">
 				<view :class="{active:iscollect}">收藏</view>
 			</view>
 			<view @click="navtiao">
 				<u-badge type="error" :count="cartlist" style="right: 480rpx;top:4rpx"></u-badge>
-				<img src="~static/icon/购物车.png" alt="">
+				<img src="~static/icon/shopping(1).png" alt="">
 				<view>购物车</view>
 			</view>
 			<view class="circlefirst" @click="entercart">加入购物车</view>
@@ -40,13 +40,13 @@
 		<!-- #ifdef APP-PLUS -->
 		<view class="bottom">
 			<view class="collect" @click="collect">
-				<img src="static/icon/收藏.png" alt="" v-show="iscollect===false">
-				<img src="static/icon/收藏 (1).png" alt="" v-show="iscollect===true">
+				<img src="static/icon/collect.png" alt="" v-show="iscollect===false">
+				<img src="static/icon/collect(1).png" alt="" v-show="iscollect===true">
 				<view :class="{active:iscollect}">收藏</view>
 			</view>
 			<view @click="navtiao">
 				<u-badge type="error" :count="cartlist" style="right: 480rpx;top:4rpx"></u-badge>
-				<img src="static/icon/购物车.png" alt="">
+				<img src="static/icon/shopping(1).png" alt="">
 				<view>购物车</view>
 			</view>
 			<view class="circlefirst" @click="entercart">加入购物车</view>
@@ -57,13 +57,13 @@
 		<!-- #ifdef MP-WEIXIN -->
 		<view class="bottom">
 			<view class="collect" @click="collect">
-				<img src="~static/icon/收藏.png" alt="" v-show="iscollect===false" class="icon">
-				<img src="~static/icon/收藏 (1).png" alt="" v-show="iscollect===true" class="icon">
+				<img src="~static/icon/collect.png" alt="" v-show="iscollect===false" class="icon">
+				<img src="~static/icon/collect(1).png" alt="" v-show="iscollect===true" class="icon">
 				<view :class="{active:iscollect}">收藏</view>
 			</view>
 			<view @click="navtiao">
 				<u-badge type="error" :count="cartlist" style="right: 460rpx;bottom:120rpx;position: fixed;"></u-badge>
-				<img src="~static/icon/购物车.png" alt="" class="icon">
+				<img src="~static/icon/shopping(1).png" alt="" class="icon">
 				<view>购物车</view>
 			</view>
 			<view class="circlefirst" @click="entercart">加入购物车</view>

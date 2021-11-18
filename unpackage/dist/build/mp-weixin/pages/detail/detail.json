@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "图书详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-row": "/uview-ui/components/u-row/u-row",
+    "u-col": "/uview-ui/components/u-col/u-col",
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-badge": "/uview-ui/components/u-badge/u-badge",
+    "u-parse": "/uview-ui/components/u-parse/u-parse",
+    "comment": "/components/comment/comment",
+    "goods": "/components/goods/goods"
+  }
+}

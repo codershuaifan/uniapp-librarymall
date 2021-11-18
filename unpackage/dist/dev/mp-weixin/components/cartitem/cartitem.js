@@ -104,11 +104,11 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  var m0 = __webpack_require__(/*! static/icon/未选中.svg */ 213)
+  var m0 = __webpack_require__(/*! static/icon/unchoose.png */ 443)
 
-  var m1 = __webpack_require__(/*! static/icon/选中.svg */ 214)
+  var m1 = __webpack_require__(/*! static/icon/choose.png */ 444)
 
-  var m2 = __webpack_require__(/*! static/icon/垃圾箱.svg */ 215)
+  var m2 = __webpack_require__(/*! static/icon/rubbish(1).png */ 215)
 
   _vm.$mp.data = Object.assign(
     {},
@@ -154,6 +154,15 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //

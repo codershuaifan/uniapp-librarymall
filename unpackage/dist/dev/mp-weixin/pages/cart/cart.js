@@ -245,9 +245,6 @@ var _default =
         if (name.itemshow === true && name.itemnumber > 0) {
           name._props.cartitem.itemnumber = name.itemnumber;
           this.fakecartlist.push(name._props.cartitem);
-          this.$u.route({
-            type: 'navigateTo',
-            url: 'pages/cart/above' });
 
         }
 
@@ -259,6 +256,10 @@ var _default =
       uni.setStorage({
         key: 'abovecartlist',
         data: this.fakecartlist });
+
+      this.$u.route({
+        type: 'navigateTo',
+        url: 'pages/cart/above' });
 
     } },
 

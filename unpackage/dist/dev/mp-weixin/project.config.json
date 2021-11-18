@@ -4,27 +4,26 @@
     "ignore": []
   },
   "setting": {
-    "urlCheck": false
+    "urlCheck": true,
+    "es6": true,
+    "postcss": true,
+    "minified": true
   },
   "compileType": "miniprogram",
   "libVersion": "",
-  "appid": "touristappid",
-  "projectname": "uView-demo",
+  "appid": "wxcd6b39bebb84c636",
+  "projectname": "小帆的图书馆",
   "condition": {
     "search": {
-      "current": -1,
       "list": []
     },
     "conversation": {
-      "current": -1,
       "list": []
     },
     "game": {
-      "current": -1,
       "list": []
     },
     "miniprogram": {
-      "current": -1,
       "list": []
     }
   }

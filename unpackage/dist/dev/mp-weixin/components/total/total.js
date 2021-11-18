@@ -81,9 +81,9 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  var m0 = __webpack_require__(/*! static/icon/未选中.svg */ 213)
+  var m0 = __webpack_require__(/*! static/icon/unchoose.svg */ 213)
 
-  var m1 = __webpack_require__(/*! static/icon/选中.svg */ 214)
+  var m1 = __webpack_require__(/*! static/icon/choose.svg */ 214)
 
   _vm.$mp.data = Object.assign(
     {},

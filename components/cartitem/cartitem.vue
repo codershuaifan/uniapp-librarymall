@@ -1,14 +1,19 @@
 <template>
 	<view>
 		<view class="cartitem">
-			<!-- #ifndef APP-PLUS -->
-			<img src="~static/icon/未选中.svg" alt="" class="icon" @click="changestatus" v-show="itemshow===false">
-			<img src="~static/icon/选中.svg" alt="" class="icon" @click="changestatus" v-show="itemshow===true">
+			<!-- #ifdef H5 -->
+			<img src="~static/icon/unchoose.svg" alt="" class="icon" @click="changestatus" v-show="itemshow===false">
+			<img src="~static/icon/choose.svg" alt="" class="icon" @click="changestatus" v-show="itemshow===true">
+			<!-- #endif -->
+			
+			<!-- #ifdef MP-WEIXIN -->
+			<img src="~static/icon/unchoose.png" alt="" class="icon" @click="changestatus" v-show="itemshow===false">
+			<img src="~static/icon/choose.png" alt="" class="icon" @click="changestatus" v-show="itemshow===true">
 			<!-- #endif -->
 			
 			<!-- #ifdef APP-PLUS -->
-			<img src="static/icon/未选中.png" alt="" class="icon" @click="changestatus" v-show="itemshow===false">
-			<img src="static/icon/选中.png" alt="" class="icon" @click="changestatus" v-show="itemshow===true">
+			<img src="static/icon/unchoose.png" alt="" class="icon" @click="changestatus" v-show="itemshow===false">
+			<img src="static/icon/choose.png" alt="" class="icon" @click="changestatus" v-show="itemshow===true">
 			<!-- #endif -->
 			
 			<img :src='cartitem.cover_url' alt="" class="image">
@@ -22,12 +27,16 @@
 						<u-button size="mini">{{itemnumber}}</u-button>
 						<u-button size="mini" @click="add">+</u-button>
 					</view>
-					<!-- #ifndef APP-PLUS -->
-					<img src="~static/icon/垃圾箱.svg" alt="" class="iconsecond" @click="deleteitem">
+					<!-- #ifdef H5 -->
+					<img src="~static/icon/rubbish.svg" alt="" class="iconsecond" @click="deleteitem">
+					<!-- #endif -->
+					
+					<!-- #ifdef MP-WEIXIN -->
+					<img src="~static/icon/rubbish(1).png" alt="" class="iconsecond" @click="deleteitem">
 					<!-- #endif -->
 					
 					<!-- #ifdef APP-PLUS -->
-					<img src="static/icon/垃圾箱.svg" alt="" class="iconsecond" @click="deleteitem">
+					<img src="static/icon/rubbish.svg" alt="" class="iconsecond" @click="deleteitem">
 					<!-- #endif -->
 				</view>
 			</view>

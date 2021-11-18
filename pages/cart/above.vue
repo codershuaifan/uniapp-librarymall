@@ -15,13 +15,13 @@
 			
 			<!-- #ifndef APP-PLUS -->
 			<view v-show="isshow===true">
-				<img src="~static/数码小镇二维码.jpg" alt="">
+				<img src="~static/shuma.jpg" alt="">
 			</view>
 			<!-- #endif -->
 			
 			<!-- #ifdef APP-PLUS -->
 			<view v-show="isshow===true">
-				<img src="static/数码小镇二维码.jpg" alt="">
+				<img src="static/shuma.jpg" alt="">
 			</view>
 			<!-- #endif -->
 			
@@ -137,19 +137,6 @@
 			},
 			//#endif
 		},
-		created(){
-			// uni.getStorage({
-			// 	key: 'abovecartlist',
-			// 	success(res){
-			// 		this.abovelist=res
-			// 	},
-			// })
-			
-			const res=uni.getStorageSync('abovecartlist');
-			if(res){
-				this.abovelist=res
-			}
-		},
 		computed:{
 			totalprice(){
 				var b=0
@@ -160,6 +147,10 @@
 			}
 		},
 		async onLoad(){
+			const restwo=uni.getStorageSync('abovecartlist');
+			if(restwo){
+				this.abovelist=restwo
+			}
 			const res=await this.$u.api.getplacelist()
 			this.placelist.push(...res.data)
 			// console.log(this.placelist)

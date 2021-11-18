@@ -87,20 +87,16 @@
 					if(name.itemshow===true && name.itemnumber>0){
 						name._props.cartitem.itemnumber=name.itemnumber
 						this.fakecartlist.push(name._props.cartitem)
-						this.$u.route({
-							type:'navigateTo',
-							url:'pages/cart/above'
-						})
+						
 					}
-					//#ifdef H5
-					else{
-						this.$u.toast('请检查结算信息')
-					}
-					//#endif
 				}
 				uni.setStorage({
 					key: 'abovecartlist',
 					data: this.fakecartlist
+				})
+				this.$u.route({
+					type:'navigateTo',
+					url:'pages/cart/above'
 				})
 			}
 		},

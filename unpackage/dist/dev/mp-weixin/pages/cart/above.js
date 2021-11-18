@@ -126,7 +126,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  var m0 = __webpack_require__(/*! static/数码小镇二维码.jpg */ 117)
+  var m0 = __webpack_require__(/*! static/shuma.jpg */ 117)
 
   _vm.$mp.data = Object.assign(
     {},
@@ -308,19 +308,6 @@ var _default =
     } },
 
 
-  created: function created() {
-    // uni.getStorage({
-    // 	key: 'abovecartlist',
-    // 	success(res){
-    // 		this.abovelist=res
-    // 	},
-    // })
-
-    var res = uni.getStorageSync('abovecartlist');
-    if (res) {
-      this.abovelist = res;
-    }
-  },
   computed: {
     totalprice: function totalprice() {
       var b = 0;var _iterator = _createForOfIteratorHelper(
@@ -330,15 +317,19 @@ var _default =
       return b;
     } },
 
-  onLoad: function onLoad() {var _this = this;return _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee() {var _this$placelist;var res;return _regenerator.default.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:_context.next = 2;return (
-                _this.$u.api.getplacelist());case 2:res = _context.sent;
+  onLoad: function onLoad() {var _this = this;return _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee() {var _this$placelist;var restwo, res;return _regenerator.default.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:
+              restwo = uni.getStorageSync('abovecartlist');
+              if (restwo) {
+                _this.abovelist = restwo;
+              }_context.next = 4;return (
+                _this.$u.api.getplacelist());case 4:res = _context.sent;
               (_this$placelist = _this.placelist).push.apply(_this$placelist, _toConsumableArray(res.data));
               // console.log(this.placelist)
               _this.placelist.find(function (item) {
                 if (item.is_default === 1) {
                   _this.defaultplace = item;
                 }
-              });case 5:case "end":return _context.stop();}}}, _callee);}))();
+              });case 7:case "end":return _context.stop();}}}, _callee);}))();
   } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 

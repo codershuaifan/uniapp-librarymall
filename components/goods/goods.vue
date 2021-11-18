@@ -71,9 +71,10 @@
 	
 	/* #ifdef MP-WEIXIN */
 	.image{
-	height: 70%;
+	height: 60%;
 	width: 70%;
-	margin: 0 auto;
+	margin: 0rpx auto;
+	padding-top: 40rpx;
 	}
 	/* #endif */
 	
