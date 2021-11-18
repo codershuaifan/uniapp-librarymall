@@ -80,7 +80,8 @@
     "h5" : {
         "template" : "template.h5.html",
         "router" : {
-            "mode" : "history"
+            "mode" : "hash",
+            "base" : "./"
         },
         "title" : "小帆的图书馆",
         "optimization" : {
