@@ -247,11 +247,6 @@ var _default =
           this.fakecartlist.push(name._props.cartitem);
 
         }
-
-
-
-
-
       }
       uni.setStorage({
         key: 'abovecartlist',

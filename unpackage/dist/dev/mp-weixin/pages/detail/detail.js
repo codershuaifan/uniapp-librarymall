@@ -105,13 +105,13 @@ try {
       return __webpack_require__.e(/*! import() | uview-ui/components/u-tabs/u-tabs */ "uview-ui/components/u-tabs/u-tabs").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-tabs/u-tabs.vue */ 154))
     },
     uBadge: function() {
-      return __webpack_require__.e(/*! import() | uview-ui/components/u-badge/u-badge */ "uview-ui/components/u-badge/u-badge").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-badge/u-badge.vue */ 278))
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-badge/u-badge */ "uview-ui/components/u-badge/u-badge").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-badge/u-badge.vue */ 280))
     },
     uParse: function() {
-      return Promise.all(/*! import() | uview-ui/components/u-parse/u-parse */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uview-ui/components/u-parse/u-parse")]).then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-parse/u-parse.vue */ 285))
+      return Promise.all(/*! import() | uview-ui/components/u-parse/u-parse */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uview-ui/components/u-parse/u-parse")]).then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-parse/u-parse.vue */ 287))
     },
     comment: function() {
-      return __webpack_require__.e(/*! import() | components/comment/comment */ "components/comment/comment").then(__webpack_require__.bind(null, /*! @/components/comment/comment.vue */ 295))
+      return __webpack_require__.e(/*! import() | components/comment/comment */ "components/comment/comment").then(__webpack_require__.bind(null, /*! @/components/comment/comment.vue */ 297))
     },
     goods: function() {
       return __webpack_require__.e(/*! import() | components/goods/goods */ "components/goods/goods").then(__webpack_require__.bind(null, /*! @/components/goods/goods.vue */ 175))

@@ -80,7 +80,7 @@ var components
 try {
   components = {
     uButton: function() {
-      return __webpack_require__.e(/*! import() | uview-ui/components/u-button/u-button */ "uview-ui/components/u-button/u-button").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-button/u-button.vue */ 271))
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-button/u-button */ "uview-ui/components/u-button/u-button").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-button/u-button.vue */ 273))
     }
   }
 } catch (e) {
@@ -104,9 +104,9 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  var m0 = __webpack_require__(/*! static/icon/unchoose.png */ 443)
+  var m0 = __webpack_require__(/*! static/icon/unchoose.png */ 213)
 
-  var m1 = __webpack_require__(/*! static/icon/choose.png */ 444)
+  var m1 = __webpack_require__(/*! static/icon/choose.png */ 214)
 
   var m2 = __webpack_require__(/*! static/icon/rubbish(1).png */ 215)
 
